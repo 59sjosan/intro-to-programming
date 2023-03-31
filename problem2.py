@@ -3,15 +3,15 @@ def takeinput():
     b=int(input("2nd Number: "))
     opr=input("Operator: ")
     if opr=='+':
-        displayResult(a+b)
+        displayResult(a,b,opr,a+b)
     elif opr=='*':
-        displayResult(a*b)
+        displayResult(a,b,opr,a*b)
     elif opr=='-':
-        displayResult(a-b)
+        displayResult(a,b,opr,a-b)
     elif opr=='/':
-        displayResult(a/b)
-def displayResult(c):
-    print("Output is = ",c)
+        displayResult(a,b,opr,a/b)
+def displayResult(a,b,c,d):
+    print(a,c,b,"=",d)
 
 takeinput()
 
