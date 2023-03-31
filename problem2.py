@@ -11,7 +11,8 @@ def takeinput():
     elif opr=='/':
         displayResult(a/b)
 def displayResult(c):
-    print("Output is ",c)
+    print("Output is = ",c)
 
 takeinput()
+
 
