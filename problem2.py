@@ -18,5 +18,9 @@ if total>300:
     dis=.1*total
 
 print("\t\t\t\t  Melanie Denatal Clinic\n\t\t\t\t*------------------------*")
-
-
+print("\n\t\t\t\tReceipt for patient name:"+patient_name)
+print("\t\t\t---------------------------------------------\n")
+print("\t\t\t\t\tSubtotal:",sub_amount)
+print("\t\t\t\t\tTax:",tax)
+print("\t\t\t---------------------------------------------\n")
+print("\t\t\t\t\tTotal:",total-dis)
